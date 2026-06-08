@@ -103,7 +103,7 @@ function Index() {
               <h2 className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Engine Schematic</h2>
               <span className="font-mono text-[10px] text-muted-foreground">station temperatures</span>
             </div>
-            <EngineDiagram out={out} T1={T1} T3={T3} />
+            <EngineDiagram out={out} />
           </div>
 
           <div className="grid sm:grid-cols-2 gap-3">
